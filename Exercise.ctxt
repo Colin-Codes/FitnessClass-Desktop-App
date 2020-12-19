@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Exercise
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ FitnessClassType\ here.\r\n\r\n\ 16018361\r\n\ 07/01/2019\r\n
+comment1.params=newExerciseName\ newPrice\ newExerciseID
+comment1.target=Exercise(java.lang.String,\ java.math.BigDecimal,\ java.lang.Integer)
+comment2.params=
+comment2.target=java.lang.String\ getDetails()
+comment3.params=
+comment3.target=java.lang.String\ getLabel()
+comment4.params=
+comment4.target=java.lang.Integer\ getID()
+comment5.params=
+comment5.target=java.lang.String\ getName()
+comment6.params=
+comment6.target=java.math.BigDecimal\ getPrice()
+comment7.params=newName
+comment7.target=void\ setName(java.lang.String)
+comment8.params=newPrice
+comment8.target=void\ setPrice(java.math.BigDecimal)
+numComments=9
