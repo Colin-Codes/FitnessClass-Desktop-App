@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Club
+comment0.text=\r\n\ Class\ to\ hold\ methods\ and\ state\ for\ the\ club.\ \r\n\ Not\ strictly\ necessary\ to\ implement\ as\ a\ class\ because\ there\ is\ only\ one\ instance.\r\n\ However\ this\ structure\ allows\ multiple\ test\ routines\ without\ duplication\ of\ effort.\r\n\ \r\n\ 16018361\r\n\ 07/01/2019\r\n
+comment1.params=
+comment1.target=java.util.Date\ getSystemDate()
+comment2.params=newDate
+comment2.target=void\ setSystemDate(java.util.Date)
+comment3.params=strDate
+comment3.target=java.util.Date\ getConvertedDate(java.lang.String)
+comment4.params=datDate
+comment4.target=java.lang.String\ getConvertedDate(java.util.Date)
+comment5.params=
+comment5.target=java.lang.Integer\ getMaxClassSize()
+comment6.params=checkDate
+comment6.target=boolean\ checkWeekend(java.util.Date)
+comment7.params=blnTestData
+comment7.target=Club(boolean)
+comment8.params=intMonth\ intYear
+comment8.target=java.lang.String\ reportMonthlyExerciseChampion(int,\ int)
+comment9.params=intMonth\ intYear
+comment9.target=java.util.ArrayList\ reportMonthlyExerciseResults(int,\ int)
+numComments=10
