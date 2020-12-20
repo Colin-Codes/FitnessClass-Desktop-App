@@ -13,6 +13,9 @@ I strongly believe in planning any sifficiently large project ahead of time. I o
 ## Construction (https://www.bluej.org/)
 I used the BlueJ editor to build the application using Java. Project files are available in the project-files folder.
 
+## Architecture
+The code is suitably decoupled such that the back end is comprised of a number of classes and collection classes (Hashmaps in this instance), of which the Club class is composed. The GUIWeekendFitnessClub class then provides the user a means of manipulating the club object using a graphical user interface.
+
 ## Highlights
 * The use of enums was a great way to define a limited and immutable set of options, for instance Slot.java which contains the time slots for the fitness centre, that were not expected to change.
 * Abstractions were used appropriately to maintain a balance between coupling and cohesion
