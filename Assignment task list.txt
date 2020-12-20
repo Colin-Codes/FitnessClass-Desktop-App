@@ -1,0 +1,52 @@
+centre
+	Hashmap of Customers
+	Hashmap of FitnessClassSessions
+	Hashmap of FitnessClassTypes
+	
+	Add customer
+	Add session type
+	Add session
+	Add review
+
+	Book customer onto session
+	Re-book customer onto different session - holds space while booking new one
+
+	Print report of sessions with numbers of customers and ratings
+	Print report of session with highest income
+
+Customer
+	x Static variable NextUniqueID
+	x Static method assign new ID
+	x Private variables for first and last name
+
+FitnessClassSession
+	SessionID
+	AssignnewID - based on date and session number
+	Must register customers against payments
+	prevent more than 20 customers
+	must have a date and session time (monring, afternoon, evening1, evening2)
+		Dates can only be Sturday or Sunday
+	must have a session type
+	increment or decrement count as necesssary
+	increment or decrement takings as necessary
+
+FitnessClassType
+	TypeID - name should be enough
+	Price - constant once initialised
+
+Payment
+	Paid
+	Card or Cash
+
+Review
+	1to5 score
+	Comments
+	must be validated so that only past sessions can be reviewed
+
+tester class
+	Initialise 15 customers, 5 types of classes, 20 reviews, will need some sessions too
+	use System.out
+
+Report
+jar file
+source code
